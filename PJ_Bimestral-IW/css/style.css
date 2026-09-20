@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
 }
 
-header img, nav a {
+header img {
   width: 25%;
   max-width: 900px;
   height: auto;
@@ -40,6 +40,11 @@ h1 {
   text-align: center;
 }
 
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+
 
 footer {
   background-color: #d6d3d1;
@@ -48,12 +53,44 @@ footer {
   text-align: center;
   font-size: 22px;
   padding: 30px 0px;
-  bottom: 0;
+  margin-top: 50px;
 }
 
 nav a{
   color: black;
+  text-decoration: none;
 }
 
+nav{
+  margin: 10px;
+  padding: 15px 30px;
+  background-color: #d6d3d1;
+  border-radius: 24px;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+  border-radius: 24px;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    background-color: #5c4f4f;
+    color: #d6d3d1;
+    padding: 15px 30px;
+    border-radius: 24px;
+    text-decoration: none;
+    
+}
 
 
