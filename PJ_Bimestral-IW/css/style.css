@@ -63,7 +63,7 @@ nav a{
 
 nav{
   margin: 10px;
-  padding: 15px 30px;
+  padding: 15px 40px;
   background-color: #d6d3d1;
   border-radius: 24px;
 }
@@ -98,4 +98,82 @@ img {
   text-align: center;
 }
 
+.contato {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6d3d1;
+  border-radius: 24px;
+}
+
+.contato img {
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+
+.iconetexto {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.iconetexto h1 {
+  text-align: start;
+  margin-top: 0;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto p {
+  margin: 0;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.formulario {
+    background-color: white;
+    border-radius: 24px;
+    padding: 30px;
+    width: 500px;
+}
+
+.formulario h1 {
+    margin: 0 0 25px;
+    color: #5c4f4f;
+    font-size: 20px;
+    width: auto;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    color: #5c4f4f;
+}
+
+.formulario input, .formulario select, .formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 24px;
+    background-color: #5c4f4f;
+    color: white;
+}
 
