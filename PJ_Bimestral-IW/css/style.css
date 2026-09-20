@@ -93,4 +93,9 @@ img {
     
 }
 
+.sobre h2, p {
+  margin: 40px;
+  text-align: center;
+}
+
 
